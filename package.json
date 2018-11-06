@@ -6,6 +6,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@nebulario/nodeflow-local-graph": "1.1.7-local-ui-graph-prod"
+    "@nebulario/nodeflow-local-graph": "1.1.8-local-ui-graph-dev"
   }
 }
