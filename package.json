@@ -1,0 +1,11 @@
+{
+  "name": "@nebulario/repoflow-container-graph",
+  "version": "1.1.0-local-ui-graph-dev",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@nebulario/nodeflow-local-graph": "1.1.7-local-ui-graph-prod"
+  }
+}
