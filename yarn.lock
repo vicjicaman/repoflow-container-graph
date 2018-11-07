@@ -27,9 +27,9 @@
     child-process-promise "^2.2.1"
     uuid "^3.3.2"
 
-"@nebulario/nodeflow-local-graph@1.1.8-local-ui-graph-dev":
-  version "1.1.8-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.8-local-ui-graph-dev.tgz#b110e80eaa5131d969a9855fa15170cd47185776"
+"@nebulario/nodeflow-local-graph@1.1.9-local-ui-graph-dev":
+  version "1.1.9-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.9-local-ui-graph-dev.tgz#cf60435826fd350657947c02e996c341a5a0fd26"
   dependencies:
     "@nebulario/core-logger" "1.1.2-local-ui-graph-prod"
     "@nebulario/core-node" "1.0.0-master"
@@ -43,6 +43,7 @@
     graphql-tools "^3.0.0"
     graphql-tools-types "^1.1.19"
     lodash "^4.17.11"
+    semver "^5.6.0"
 
 "@nebulario/repoflow-domain@link:../repoflow-domain":
   version "0.0.0"
@@ -583,6 +584,10 @@ safe-json-stringify@~1:
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+
+semver@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
 
 send@0.16.2:
   version "0.16.2"

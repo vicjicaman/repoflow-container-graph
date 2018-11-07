@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
     "@nebulario/nodeflow-local-graph": "1.1.9-local-ui-graph-dev"
   }
