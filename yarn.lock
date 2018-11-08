@@ -45,7 +45,7 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/repoflow-domain@link:../repoflow-domain":
+"@nebulario/repoflow-domain@link:../../../../../../../../../../.cache/yarn/v1/npm-@nebulario/repoflow-domain":
   version "0.0.0"
   uid ""
 
@@ -92,8 +92,8 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
 bluebird@^3.5.1:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.2.tgz#1be0908e054a751754549c270489c1505d4ab15a"
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
 body-parser@1.18.3, body-parser@^1.18.2:
   version "1.18.3"
