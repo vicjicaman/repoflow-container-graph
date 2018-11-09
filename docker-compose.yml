@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow.com-container-graph:1.1.2-local-ui-graph-dev
+    env_file:
+     - .env
+    volumes:
+     - /home/victor/nodeflow/workspace:/home/victor/nodeflow/workspace
+     - /home/victor/.npmrc:/home/node/.npmrc
+     - /home/victor/.gitconfig:/home/node/.gitconfig
+     - /home/victor/.ssh:/home/node/.ssh
+    ports:
+     - "4001:4000"
