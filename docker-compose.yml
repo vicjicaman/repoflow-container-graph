@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow.com-container-graph:1.1.2-local-ui-graph-dev
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-graph:1.1.2-local-ui-graph-dev
     env_file:
      - .env
     volumes:
@@ -9,5 +9,8 @@ services:
      - /home/victor/.npmrc:/home/node/.npmrc
      - /home/victor/.gitconfig:/home/node/.gitconfig
      - /home/victor/.ssh:/home/node/.ssh
+     - /home/victor/.aws:/home/node/.aws
+    environment:
+     - "SERVICE_PORT=4001"
     ports:
-     - "4001:4000"
+     - "4001:4001"
