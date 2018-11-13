@@ -27,9 +27,9 @@
     child-process-promise "^2.2.1"
     uuid "^3.3.2"
 
-"@nebulario/nodeflow-local-graph@1.1.11-local-ui-graph-dev":
-  version "1.1.11-local-ui-graph-dev"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.11-local-ui-graph-dev.tgz#47e66d37a28bf8048485cc5759b93f5dea0212bb"
+"@nebulario/nodeflow-local-graph@1.1.13-local-ui-graph-dev":
+  version "1.1.13-local-ui-graph-dev"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.1.13-local-ui-graph-dev.tgz#5950761ff7a36515568487c53adcdbf9b40bb63c"
   dependencies:
     "@nebulario/core-logger" "1.1.2-local-ui-graph-prod"
     "@nebulario/core-node" "1.0.0-master"
