@@ -10,5 +10,6 @@ services:
      - /home/victor/.ssh:/home/node/.ssh
     environment:
      - SERVICE_PORT=4001
+     - REPOFLOW_WORKSPACE=/home/victor/nodeflow/workspace
     ports:
      - 4001:4001
