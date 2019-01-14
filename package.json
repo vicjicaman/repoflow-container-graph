@@ -3,6 +3,6 @@
   "description": "",
   "license": "MIT",
   "dependencies": {
-    "@nebulario/nodeflow-local-graph": "1.1.29-local-ui-graph-prod"
+    "@nebulario/nodeflow-local-graph": "1.1.30-local-ui-graph-prod"
   }
 }
