@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-graph:1.1.27-local-ui-graph-prod
+    image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-graph:1.0.0-master
     env_file:
      - .env
     volumes:
