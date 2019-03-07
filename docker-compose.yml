@@ -5,11 +5,11 @@ services:
     env_file:
      - .env
     volumes:
-     - /home/victor/nodeflow/workspace:/home/victor/nodeflow/workspace
+     - /home/victor/nodeflow/workspace:/home/node/workspace
      - /home/victor/.gitconfig:/home/node/.gitconfig
      - /home/victor/.ssh:/home/node/.ssh
     environment:
-     - SERVICE_PORT=4001
-     - REPOFLOW_WORKSPACE=/home/victor/nodeflow/workspace
+     - SERVICE_PORT=4040
+     - REPOFLOW_WORKSPACE=/home/node/workspace
     ports:
-     - 4001:4001
+     - 4040:4040
