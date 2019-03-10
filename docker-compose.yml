@@ -3,13 +3,12 @@ services:
   app:
     image: 919446158824.dkr.ecr.us-east-1.amazonaws.com/repoflow-container-graph:1.10.1-master
     env_file:
-     - .env
+      - .env
     volumes:
      - /home/victor/nodeflow/workspace:/home/node/workspace
      - /home/victor/.gitconfig:/home/node/.gitconfig
      - /home/victor/.ssh:/home/node/.ssh
     environment:
-     - SERVICE_PORT=4040
      - REPOFLOW_WORKSPACE=/home/node/workspace
     ports:
-     - 4040:4040
+     - "${SERVICE_PORT}:${SERVICE_PORT}"
