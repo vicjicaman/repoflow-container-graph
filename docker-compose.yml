@@ -5,9 +5,9 @@ services:
     env_file:
       - .env
     volumes:
-     - /home/victor/nodeflow/workspace:/home/node/workspace
-     - /home/victor/.gitconfig:/home/node/.gitconfig
-     - /home/victor/.ssh:/home/node/.ssh
+     - ~/nodeflow/workspace:/home/node/workspace
+     - ~/.gitconfig:/home/node/.gitconfig
+     - ~/.ssh:/home/node/.ssh
     environment:
      - REPOFLOW_WORKSPACE=/home/node/workspace
     ports:
