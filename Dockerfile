@@ -3,19 +3,17 @@ FROM node:8.13.0-alpine
 RUN set -xe \
     && apk add --no-cache bash git openssh
 
-RUN mkdir -p /workspace/app
-RUN chown -R node /workspace
+RUN mkdir -p /app
+RUN chown -R node /app
 
-WORKDIR /workspace/app
+WORKDIR /app
 
 USER node
-RUN whoami
 
-COPY ./node_modules /workspace/app/node_modules
-COPY ./node_modules/@nebulario/nodeflow-local-graph/dist/index.js /workspace/app/dist/index.js
+COPY ./node_modules /app/node_modules
 
 ENTRYPOINT ["node"]
-CMD ["dist/index.js"]
+CMD ["/app/node_modules/@nebulario/nodeflow-local-graph/dist/index.js"]
 
 
 
