@@ -16,20 +16,6 @@ ENTRYPOINT ["node"]
 CMD ["/app/node_modules/@nebulario/nodeflow-local-graph/dist/index.js"]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Move to build server, only dependency is git
 #RUN apk update
 #RUN apk add --no-cache python py-pip
